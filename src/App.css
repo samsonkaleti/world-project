@@ -1,0 +1,22 @@
+ 
+
+
+*{
+  padding: 0px; 
+  margin: 0px; 
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh; 
+  min-width: 100vw; 
+  background-color: rgba(0, 0, 0, 0.199);
+
+
+}
+
+/* .headerContainer{
+ 
+} */
+
+
+

@@ -1,0 +1,80 @@
+.countriesContainer{
+    
+     display: flex; 
+     flex-direction: column;
+     justify-content: center; 
+     align-items: center; 
+     width: 100vw; 
+     min-height: 100vh;   
+    
+} 
+
+
+.detailsCard{
+    background-color: rgba(255, 255, 255, 0.503); 
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    height: 100%; 
+    width: 50%;
+    padding: 40px;
+}
+.imgContainer{
+    margin-right: 20px;
+    
+}
+
+.heading{
+    font-size: 30px; 
+    font-family: sans-serif; 
+    margin-bottom: 5px;
+    color: blueviolet;
+}
+
+h1{
+    font-size: 20px;
+   font-family: sans-serif;
+} 
+
+/* .details{
+    max-width:100%;
+} */
+
+
+.img{
+    width:35vh ;
+}
+
+.name{
+   color: green;
+} 
+
+.button{
+    margin-top: 20px; 
+    width: 100px;
+}
+.HomeButton{
+    width: 100%; 
+  background-color: blue; 
+  color: white;
+  outline: none; 
+  border: none; 
+  height: 40px;
+  border-radius: 5px; 
+  font-size: 20px; 
+  text-align: center;
+
+
+
+}
+
+.HomeButton:hover {
+    background-color:#002ead;
+    transition: 0.5s;
+    font-size: 30px;
+    padding-top: 5px;
+}
+
+
+

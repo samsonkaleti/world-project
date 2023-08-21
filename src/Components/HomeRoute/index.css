@@ -1,0 +1,149 @@
+.country-card-style{
+    display: flex; 
+    gap: 10px; 
+    flex-wrap: wrap;  
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    
+  } 
+
+  .link{
+    text-decoration: none;
+    
+  }
+
+  .world{
+    color: white;
+    font-family: 'Tangerine', serif;
+
+  } 
+
+
+  @media screen and (max-width:767px){
+    .world{
+      display: none;
+    }
+  
+  }
+
+    
+.headerContainer{
+  background-color: #0e0e0eee;
+  width: 100%;  
+  height: 16vh;
+  /* margin-bottom: 10px;  */
+  display: flex; 
+  align-items: center; 
+  padding-left: 10px;  
+  padding-right: 10px; 
+
+} 
+
+@media screen and (max-width:767px){
+  .headerContainer{
+    height: 10vh;
+  }
+
+}
+
+.logo{
+  width: 90px;  
+  width: 95px;
+  border-radius: 20px;
+
+} 
+
+@media screen and (max-width:767px){
+  .logo{
+    width: 75px;
+  }
+
+}
+
+.searchInput{  
+  height: 27.5px; 
+  outline: none; 
+  padding-left: 10px; 
+  padding-right: 10px;
+  background-color:white;
+  font-family: 'Times New Roman', Times, serif; 
+  color: black;  
+  font-size: 18px;
+  margin-left: 25%;
+  border: none;
+  border-top-left-radius:5px;
+  border-bottom-left-radius: 5px;
+
+
+
+
+}  
+
+
+@media screen and (max-width:767px){
+  .searchInput{
+    margin-left: 10%;
+    width: 130px;
+    font-size: 12px;
+   
+
+  }
+}
+
+
+.searchLogo{
+  border-top-right-radius:5px;
+  border-bottom-right-radius: 5px;
+  color: black; 
+  font-size: 20px;
+ 
+
+
+  
+  background-color: white;
+  height: 27.5px;
+  text-align: center;
+  padding-top: 3.5px;
+  width: 28px;
+  font-size: 20px;
+  margin: 0px;
+  padding-right: 5px;
+
+}
+
+
+@media screen and (max-width:767px){
+  .searchLogo{
+    margin: 0px;
+  }
+}
+
+.loader-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.834);
+  z-index: 1;
+}
+
+.spinner {
+  width: 64px;
+  height: 64px;
+  border: 8px solid;
+  border-color: #3d5af1 transparent #3d5af1 transparent;
+  border-radius: 50%;
+  animation: spin-anim 1.2s linear infinite;
+}
+
+@keyframes spin-anim {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
