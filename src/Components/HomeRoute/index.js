@@ -45,7 +45,7 @@ function Home() {
             <img src={LOGO}
               alt="Bootstrap" className='logo' />
           </Link>
-          <h1 className="world">The World</h1>
+          <h1 className="world">The Worlds</h1>
           <input className="searchInput" type="text" name="search" id="name" value={SearchName}
             onChange={e => setSearchName(e.target.value)}
             onKeyUpCapture={e => setSearchName(e.target.value)}
